@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import SankeyDiagram from "./SankeyDiagram";
-import RadarChart from "./RadarChart"; // เปลี่ยน path เป็น "./RadarChart"
+import RadarChart from "./RadarChart"; 
+import CourseSkillHeatmap from "./CourseSkillHeatmap"; 
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -10,8 +11,9 @@ const App: React.FC = () => {
   return (
     <div>
       <h2><center>หลักสูตร วท.บ. วิทยาการข้อมูลและนวัตกรรมธุรกิจ (ปรับปรุง พ.ศ.2569) <br/> คณะบริหารธุรกิจและเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก</center></h2>
-      <SankeyDiagram />
-      <RadarChart /> {/* แสดง Radar Chart */}
+      <center><SankeyDiagram /></center>
+      <center><RadarChart /> </center>
+      <center><CourseSkillHeatmap /></center>
     </div>
   );
 };
