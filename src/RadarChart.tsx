@@ -119,16 +119,16 @@ const RadarChart: React.FC = () => {
               direction: "clockwise",
             },
           },
-          width: 1600,
-          height: 1000,
-          margin: { l: 200, r: 200, t: 20, b: 100 },
+          width: 1300,
+          height: 800,
+          margin: { l: 200, r: 150, t: 0, b: 0 },
           showlegend: true,
           legend: {
             x: 1.1,
             y: 1,
-            font: { size: 14 },
+            font: { size: 12 },
           },
-          font: { size: 16 },
+          font: { size: 14 },
         }}
       />
     </div>

@@ -66,10 +66,10 @@ const CourseSkillHeatmap: React.FC = () => {
         ]}
         layout={{
           autosize: true,
-          width: 1600,
-          height: 1600,
-          margin: { l: 380, r: 230, t: 350, b: 100 },
-          font: { size: 13 },
+          width: 1300,
+          height: 1100,
+          margin: { l: 350, r: 200, t: 300, b: 0 },
+          font: { size: 12 },
           xaxis: { title: "Skill Set", tickangle: -50, side: "top" },
           yaxis: { title: "Course" },
         }}

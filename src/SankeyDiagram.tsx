@@ -122,7 +122,7 @@ const SankeyDiagram = () => {
           layout={{
                        
             font: { size: 12 },
-            width: 1800,
+            width: 1600,
             height: 1400,
           }}
           onClick={handleNodeClick}

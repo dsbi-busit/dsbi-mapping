@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import SankeyDiagram from "./SankeyDiagram";
 import RadarChart from "./RadarChart"; 
 import CourseSkillHeatmap from "./CourseSkillHeatmap"; 
+import SkillTable from "./SkillTable";
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <center><SankeyDiagram /></center>
       <center><RadarChart /> </center>
       <center><CourseSkillHeatmap /></center>
+      <center><SkillTable /></center>
     </div>
   );
 };
