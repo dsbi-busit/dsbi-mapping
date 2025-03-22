@@ -88,6 +88,10 @@ const SankeyDiagram = () => {
   return (
     <div>
       <h2></h2>
+      <h3 style={{ fontSize: "22px", marginBottom: "20px" }}><center>
+      การเชื่อมโยงผลลัพธ์การเรียนรู้ของหลักสูตร (PLOs) กับรายวิชา, ทักษะที่จำเป็น, และเส้นทางอาชีพ
+      </center>
+      </h3>
       {data && (
         <Plot
           data={[
@@ -116,11 +120,7 @@ const SankeyDiagram = () => {
             },
           ]}
           layout={{
-            title: {
-              text: "การเชื่อมโยงผลลัพธ์การเรียนรู้ของหลักสูตร (PLOs) กับรายวิชา, ทักษะที่จำเป็น, และเส้นทางอาชีพ",
-              font: { size: 22 }, // ขนาดใหญ่กว่าข้อความรอง
-            },
-            
+                       
             font: { size: 12 },
             width: 1800,
             height: 1400,
