@@ -34,7 +34,7 @@ const CourseSkillHeatmap: React.FC = () => {
     <div style={{ overflowX: "auto" }}>
       <h3
         style={{
-          fontSize: "22px",
+          fontSize: "20px",
           marginBottom: "20px",
           color: "#000",
           backgroundColor: "#f0f0f0",

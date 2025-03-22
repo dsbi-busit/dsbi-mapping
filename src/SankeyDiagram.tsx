@@ -88,7 +88,7 @@ const SankeyDiagram = () => {
   return (
     <div>
       <h2></h2>
-      <h3 style={{ fontSize: "22px", marginBottom: "20px" }}><center>
+      <h3 style={{ fontSize: "20px", marginBottom: "5px" }}><center>
       การเชื่อมโยงผลลัพธ์การเรียนรู้ของหลักสูตร (PLOs) กับรายวิชา, ทักษะที่จำเป็น, และเส้นทางอาชีพ
       </center>
       </h3>

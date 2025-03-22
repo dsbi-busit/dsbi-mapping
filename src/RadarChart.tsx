@@ -79,7 +79,7 @@ const RadarChart: React.FC = () => {
 
   return (
     <div style={{ textAlign: "center", fontFamily: "Arial, sans-serif" }}>
-      <h3 style={{ fontSize: "22px", marginBottom: "20px" }}>
+      <h3 style={{ fontSize: "20px", marginBottom: "20px" }}>
         การกระจายทักษะที่จำเป็นในแต่ละสายอาชีพ
       </h3>
 
