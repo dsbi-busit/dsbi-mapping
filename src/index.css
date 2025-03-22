@@ -35,12 +35,24 @@ body {
   font-size: 16px;
   color: #333; /* ใช้สีเข้มเพื่อให้อ่านง่าย */
   line-height: 1.6;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 /* h1 {
   font-size: 3.2em;
   line-height: 1.1;
 } */
+
+h3 {
+  background-color: #f0f0f0;  /* สีพื้นหลังเทาอ่อน */
+  color: #000000;             /* สีตัวอักษรดำ */
+  padding: 0.5rem;            /* เพิ่มช่องว่างรอบข้อความ */
+  border-radius: 4px;         /* มุมโค้งเล็กน้อย */
+}
 
 button {
   border-radius: 8px;
