@@ -99,8 +99,8 @@ const SankeyDiagram = () => {
               type: "sankey",
               orientation: "h",
               node: {
-                pad: 15,
-                thickness: 20,
+                pad: 10,
+                thickness: 10,
                 label: data?.nodes || [],
                 color: data?.nodes.map((_, i) =>
                   i === highlightedNode ? "rgba(0, 0, 0, 0.8)" : data.nodeColors[i]
@@ -113,7 +113,7 @@ const SankeyDiagram = () => {
                 color: data?.sourceNodes.map((sourceIndex, i) =>
                   highlightedNode !== null &&
                   (sourceIndex === highlightedNode || data.targetNodes[i] === highlightedNode)
-                    ? "rgba(0, 0, 0, 0.75)"
+                    ? "rgba(0, 0, 0, 0.7)"
                     : data.linkColors[i]
                 ),
               },
@@ -121,9 +121,9 @@ const SankeyDiagram = () => {
           ]}
           layout={{
                        
-            font: { size: 12 },
+            font: { size: 11 },
             width: 1600,
-            height: 1400,
+            height: 1300,
           }}
           onClick={handleNodeClick}
         />

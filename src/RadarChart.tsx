@@ -92,7 +92,7 @@ const RadarChart: React.FC = () => {
           value={selectedCareer}
           onChange={handleCareerChange}
           style={{
-            fontSize: "18px",
+            fontSize: "15px",
             padding: "8px 12px",
             borderRadius: "5px",
             border: "1px solid #ccc",
@@ -114,21 +114,21 @@ const RadarChart: React.FC = () => {
             domain: { x: [0.15, 0.85], y: [0.15, 0.85] },
             radialaxis: { visible: true, range: [0, 10] }, // ✅ แกน 0-10
             angularaxis: {
-              tickfont: { size: 14, color: "#000" },
+              tickfont: { size: 13, color: "#000" },
               rotation: 45,
               direction: "clockwise",
             },
           },
-          width: 1300,
-          height: 800,
+          width: 1200,
+          height: 700,
           margin: { l: 200, r: 150, t: 0, b: 0 },
           showlegend: true,
           legend: {
             x: 1.1,
             y: 1,
-            font: { size: 12 },
+            font: { size: 9 },
           },
-          font: { size: 14 },
+          font: { size: 13 },
         }}
       />
     </div>

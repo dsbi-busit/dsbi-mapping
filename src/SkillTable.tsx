@@ -40,32 +40,32 @@ const SkillSetCountTable: React.FC = () => {
 
   return (
     <div style={{ maxWidth: 800, margin: "2rem auto", textAlign: "center" }}>
-      <h3>จำนวนนับรายวิชาในแต่ละกลุ่มทักษะ</h3>
+      <h3>สรุปจำนวนรายวิชาในแต่ละกลุ่มทักษะ</h3>
       <table
         style={{
           borderCollapse: "collapse",
           width: "100%",
-          fontSize: "14px",
+          fontSize: "13px",
         }}
       >
         <thead>
           <tr>
-            <th style={{ border: "1px solid #ccc", padding: "8px" }}>Skill Set</th>
-            <th style={{ border: "1px solid #ccc", padding: "8px" }}>จำนวนรายวิชา</th>
+            <th style={{ border: "1px solid #ccc", padding: "6px" }}>Skill Set</th>
+            <th style={{ border: "1px solid #ccc", padding: "6px" }}>จำนวนรายวิชา</th>
           </tr>
         </thead>
         <tbody>
           {sortedSkillSets.map((skill) => (
             <tr key={skill}>
-              <td style={{ border: "1px solid #ccc", padding: "8px", textAlign: "left" }}>{skill}</td>
-              <td style={{ border: "1px solid #ccc", padding: "8px", textAlign: "center" }}>
+              <td style={{ border: "1px solid #ccc", padding: "6px", textAlign: "left" }}>{skill}</td>
+              <td style={{ border: "1px solid #ccc", padding: "6px", textAlign: "center" }}>
                 {skillSetCounts[skill].size}
               </td>
             </tr>
           ))}
           <tr style={{ fontWeight: "bold", backgroundColor: "#f0f0f0" }}>
-            <td style={{ border: "1px solid #ccc", padding: "8px" }}>รวม</td>
-            <td style={{ border: "1px solid #ccc", padding: "8px", textAlign: "center" }}>{totalCourses}</td>
+            <td style={{ border: "1px solid #ccc", padding: "6px" }}>รวม</td>
+            <td style={{ border: "1px solid #ccc", padding: "6px", textAlign: "center" }}>{totalCourses}</td>
           </tr>
         </tbody>
       </table>

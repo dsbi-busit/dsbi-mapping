@@ -42,7 +42,7 @@ const CourseSkillHeatmap: React.FC = () => {
           borderRadius: "5px",
         }}
       >
-        <center>Heatmap: รายวิชากับกลุ่มทักษะ</center>
+        <center>การกระจายรายวิชาในแต่ละกลุ่มทักษะ</center>
       </h3>
 
       <Plot
@@ -69,7 +69,7 @@ const CourseSkillHeatmap: React.FC = () => {
           width: 1300,
           height: 1100,
           margin: { l: 350, r: 200, t: 300, b: 0 },
-          font: { size: 12 },
+          font: { size: 11 },
           xaxis: { title: "Skill Set", tickangle: -50, side: "top" },
           yaxis: { title: "Course" },
         }}
